@@ -1512,6 +1512,29 @@
    </offsets>
  </model>
  
+<!--ELT-->
+ <model>
+   <name>ELT</name>
+   <path>Aircraft/c182/Models/Instruments/ELT/ArtexELT.xml</path>
+   <offsets>
+     <x-m>-1.033</x-m>
+     <y-m>0.440</y-m>
+     <z-m>0.425</z-m>
+   </offsets>
+ </model>
+ 
+ <!--Hobbs-->
+  <model>
+   <name>Hobbs</name>
+   <path>Aircraft/c182/Models/Instruments/hobbs/hobbs.xml</path>
+   <offsets>
+     <x-m>-1.033</x-m>
+     <y-m>0.483</y-m>
+     <z-m>0.38</z-m>
+   </offsets>
+ </model>
+
+ 
 <!--Exterior Lights-->
 <!--Beacon-->
 
