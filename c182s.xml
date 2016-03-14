@@ -586,6 +586,24 @@
              </kinematic>
 </channel>
 	
+<channel name="mixture">
+  <fcs_function name="mixture controller">
+         <function name="fcs/mixture-adj-norm[0]">
+            <product>
+               <property>fcs/mixture-cmd-norm[0]</property>
+               <table> 
+                  <independentVar lookup="row">fcs/throttle-cmd-norm[0]</independentVar>
+                  <tableData>
+                     0.20    1.25
+                     0.25    1.0
+                  </tableData>
+               </table>
+            </product>
+         </function>
+         <output>fcs/mixture-pos-norm[0]</output>
+           </fcs_function>
+   </channel>
+
     </flight_control>	
 
 <aerodynamics>
